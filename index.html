@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caleb Ndimele | Creative Portfolio</title>
+<meta name="description" content="Graphic design and digital content portfolio of Caleb Ndimele Udochukwu.">
+<style>
+:root {
+  --ink:#19142d; --purple:#6d5ae6; --pink:#f15a9b;
+  --yellow:#f8e94b; --orange:#f28b45; --paper:#fffdf8;
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  margin:0; font-family:Arial,Helvetica,sans-serif;
+  color:var(--ink); background:var(--paper); line-height:1.6;
+}
+a { color:inherit; }
+header {
+  background:var(--ink); color:white; padding:18px 7%;
+  display:flex; justify-content:space-between; align-items:center; gap:16px;
+  flex-wrap:wrap;
+}
+.logo { font-weight:900; letter-spacing:1px; }
+nav { display:flex; gap:18px; flex-wrap:wrap; }
+nav a { text-decoration:none; font-size:.9rem; }
+section { padding:70px 7%; }
+.hero { background:var(--ink); color:white; padding-top:45px; }
+.kicker { color:var(--yellow); font-weight:bold; text-transform:uppercase; letter-spacing:2px; }
+h1 { font-size:clamp(3rem,9vw,7rem); line-height:.95; margin:20px 0; letter-spacing:-4px; }
+.pink { color:var(--pink); }
+.hero p { max-width:600px; color:#e5e0f3; font-size:1.1rem; }
+.button {
+  display:inline-block; padding:13px 20px; margin:12px 8px 0 0;
+  background:var(--yellow); color:var(--ink); font-weight:bold;
+  text-decoration:none; border-radius:8px;
+}
+.button.alt { background:white; }
+.section-title { font-size:clamp(2rem,5vw,3.5rem); line-height:1.1; }
+.intro-grid,.project-grid,.skill-grid {
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:20px;
+}
+.card { border-radius:18px; padding:24px; }
+.project-art {
+  min-height:220px; display:flex; flex-direction:column;
+  justify-content:space-between; border-radius:14px; padding:22px;
+  overflow:hidden; font-weight:900;
+}
+.art-one { background:var(--yellow); color:var(--ink); }
+.art-two { background:var(--purple); color:white; }
+.art-three { background:var(--pink); color:var(--ink); }
+.art-big { font-size:2.5rem; line-height:1; letter-spacing:-1px; }
+.tag {
+  display:inline-block; background:rgba(255,255,255,.65);
+  padding:5px 10px; border-radius:20px; font-size:.75rem;
+  font-weight:bold; width:fit-content;
+}
+.project h3 { margin-bottom:4px; }
+.muted { color:#5e586d; }
+.dark-section { background:var(--ink); color:white; }
+.skill { background:#f0ecff; border-radius:12px; padding:18px; font-weight:bold; }
+.about-box { background:#f8e94b; border-radius:18px; padding:26px; }
+footer { background:var(--ink); color:white; padding:30px 7%; }
+footer a { color:var(--yellow); }
+@media(max-width:600px) {
+  header { align-items:flex-start; flex-direction:column; }
+  section { padding:48px 6%; }
+  h1 { letter-spacing:-2px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">CALEB / CREATIVE</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#work">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="kicker">Graphic Design · Digital Content</div>
+  <h1>DESIGN THAT<br><span class="pink">SPEAKS.</span></h1>
+  <p>I'm Caleb Ndimele Udochukwu, a creative digital content designer and Computer Science student interested in making ideas clearer through visual communication.</p>
+  <a class="button" href="#work">Explore concept work ↓</a>
+  <a class="button alt" href="#contact">Contact me</a>
+</section>
+
+<section id="about">
+  <div class="intro-grid">
+    <div>
+      <div class="kicker" style="color:#6d5ae6">A LITTLE ABOUT ME</div>
+      <h2 class="section-title">Creative thinking.<br>Purposeful visuals.</h2>
+    </div>
+    <div>
+      <p>I explore graphic design, promotional content and visual storytelling. My interests include educational content, digital communities and designs that communicate a message clearly.</p>
+      <p>I continue to develop my skills through personal projects and digital content work. The concept pieces on this page are practice concepts, not commissioned client projects.</p>
+    </div>
+  </div>
+  <div class="about-box">
+    <strong>Current focus</strong>
+    <p>Creating accessible, engaging visuals for educational initiatives, social media and community campaigns.</p>
+  </div>
+</section>
+
+<section id="work">
+  <div class="kicker" style="color:#6d5ae6">SELECTED CONCEPTS</div>
+  <h2 class="section-title">Ideas made visual.</h2>
+  <p class="muted">These are concept directions for portfolio development. They are not evidence of completed client work.</p>
+  <div class="project-grid">
+    <article class="project">
+      <div class="project-art art-one">
+        <span class="tag">CONCEPT 01 · EDUCATION</span>
+        <div class="art-big">THINK.<br>MAKE.<br>INNOVATE.</div>
+        <div>LEARN SOMETHING NEW.</div>
+      </div>
+      <h3>Learning Beyond Limits</h3>
+      <p class="muted">A proposed educational campaign graphic for a youth coding and creativity programme.</p>
+      <p><strong>Focus:</strong> Typography, hierarchy and bold colour.</p>
+    </article>
+    <article class="project">
+      <div class="project-art art-two">
+        <span class="tag">CONCEPT 02 · BRANDING</span>
+        <div class="art-big">IDEAS<br>INTO<br>IMPACT.</div>
+        <div>BUILD YOUR NEXT BIG IDEA.</div>
+      </div>
+      <h3>Creative Brand Direction</h3>
+      <p class="muted">A proposed promotional visual exploring a confident, modern identity for a fictional creative initiative.</p>
+      <p><strong>Focus:</strong> Brand consistency and composition.</p>
+    </article>
+    <article class="project">
+      <div class="project-art art-three">
+        <span class="tag">CONCEPT 03 · SOCIAL</span>
+        <div class="art-big">YOUR<br>IDEA.<br>YOUR VOICE.</div>
+        <div>SHARE WHAT MATTERS.</div>
+      </div>
+      <h3>Social Awareness Post</h3>
+      <p class="muted">A proposed social media post concept for a community awareness campaign.</p>
+      <p><strong>Focus:</strong> Clear messaging and visual storytelling.</p>
+    </article>
+  </div>
+</section>
+
+<section id="skills" class="dark-section">
+  <div class="kicker">TOOLS & SKILLS</div>
+  <h2 class="section-title">My creative toolkit.</h2>
+  <div class="skill-grid">
+    <div class="skill">Canva</div>
+    <div class="skill">Adobe Photoshop</div>
+    <div class="skill">Adobe Illustrator</div>
+    <div class="skill">Figma</div>
+    <div class="skill">Social media graphics</div>
+    <div class="skill">Flyers and promotional content</div>
+    <div class="skill">Typography and layout</div>
+    <div class="skill">Visual communication</div>
+  </div>
+</section>
+
+<section>
+  <div class="kicker" style="color:#6d5ae6">BACKGROUND</div>
+  <h2 class="section-title">Learning and creating.</h2>
+  <div class="intro-grid">
+    <div>
+      <h3>BrainMint Academy</h3>
+      <p>Founder and content creator. Developing educational and digital content ideas.</p>
+    </div>
+    <div>
+      <h3>Education</h3>
+      <p>Computer Science<br>Federal University of Technology, Owerri<br>September 2026–Present</p>
+    </div>
+    <div>
+      <h3>Certification</h3>
+      <p>AI & Prompt Engineering<br>Abia TECHRISE Cohort 1, LearnFactory Nigeria · 2025</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="about-box">
+  <div class="kicker">LET'S CONNECT</div>
+  <h2 class="section-title">Have a project in mind?</h2>
+  <p>I'm open to creative collaboration, volunteering and opportunities to keep learning.</p>
+  <p><strong>Email:</strong> <a href="mailto:austincaleb465@gmail.com">austincaleb465@gmail.com</a></p>
+  <p><strong>Phone:</strong> +234 810 059 7634 · +234 906 830 4017</p>
+  <p><a href="https://www.linkedin.com/in/caleb-ndimele-712a1b353">LinkedIn profile</a></p>
+  <p><a href="https://github.com/kaleaustin">GitHub profile</a></p>
+</section>
+</main>
+
+<footer>
+  <strong>CALEB / CREATIVE</strong>
+  <p>Built around creativity, learning and honest representation.</p>
+  <small>Concept designs are clearly labelled. No fictional client relationships or results are claimed.</small>
+</footer>
+</body>
+  </html>
+  
